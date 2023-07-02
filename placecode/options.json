@@ -1,0 +1,112 @@
+{
+  "id": 1,
+  "type": "dynamic",
+  "features": [
+    "option1",
+    "option2",
+    "option3",
+    "option4",
+    "option5",
+    "option6",
+    "option7",
+    "option8",
+    "option9"
+  ],
+  "author": "Author 1",
+  "repositoryLink": "https://github.com/dilshanhiruna/placecode",
+  "optionsFile": [
+    {
+      "id": "category1",
+      "label": "Category 1",
+      "description": "Description of category 1",
+      "features": [
+        {
+          "id": "option1",
+          "label": "Option 1",
+          "description": "Description of option 1",
+          "depend_features": ["option2", "option3"],
+          "depend_categories": ["category2"],
+          "enabled": false
+        },
+        {
+          "id": "option2",
+          "label": "Option 2",
+          "description": "Description of option 2",
+          "depend_features": ["option3"],
+          "depend_categories": [],
+          "enabled": true
+        },
+        {
+          "id": "option3",
+          "label": "Option 3",
+          "description": "Description of option 3",
+          "depend_features": [],
+          "depend_categories": [],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "category2",
+      "label": "Category 2",
+      "description": "Description of category 2",
+      "features": [
+        {
+          "id": "option4",
+          "label": "Option 4",
+          "description": "Description of option 4",
+          "depend_features": [],
+          "depend_categories": [],
+          "enabled": true
+        },
+        {
+          "id": "option5",
+          "label": "Option 5",
+          "description": "Description of option 5",
+          "depend_features": [],
+          "depend_categories": [],
+          "enabled": true
+        },
+        {
+          "id": "option6",
+          "label": "Option 6",
+          "description": "Description of option 6",
+          "depend_features": [],
+          "depend_categories": [],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "category3",
+      "label": "Category 3",
+      "description": "Description of category 3",
+      "features": [
+        {
+          "id": "option7",
+          "label": "Option 7",
+          "description": "Description of option 7",
+          "depend_features": ["option8", "option9"],
+          "depend_categories": [],
+          "enabled": true
+        },
+        {
+          "id": "option8",
+          "label": "Option 8",
+          "description": "Description of option 8",
+          "depend_features": [],
+          "depend_categories": [],
+          "enabled": true
+        },
+        {
+          "id": "option9",
+          "label": "Option 9",
+          "description": "Description of option 9",
+          "depend_features": [],
+          "depend_categories": [],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
