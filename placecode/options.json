@@ -110,7 +110,7 @@
         {
           "label": "Mongoose",
           "description": "MongoDB object modeling for Node.js",
-          "depend_features": ["Express", "JavaScript"],
+          "depend_features": ["Express", "MongoDB"],
           "depend_categories": [],
           "default": false,
           "enabled": true
