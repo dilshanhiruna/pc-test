@@ -56,7 +56,7 @@
         {
           "label": "NextJs",
           "description": "React framework for production",
-          "depend_features": ["TypeScript"],
+          "depend_features": ["TypeScript", "Express"],
           "depend_categories": ["Frontend-Language"],
           "default": false,
           "enabled": true
@@ -101,7 +101,7 @@
       "features": [
         {
           "label": "MongoDB",
-          "description": "NoSQL database",
+          "description": "",
           "depend_features": ["Express"],
           "depend_categories": [],
           "default": false,
@@ -110,7 +110,7 @@
         {
           "label": "Mongoose",
           "description": "MongoDB object modeling for Node.js",
-          "depend_features": ["Express", "MongoDB"],
+          "depend_features": ["Express"],
           "depend_categories": [],
           "default": false,
           "enabled": true
