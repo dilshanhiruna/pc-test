@@ -33,7 +33,7 @@
           "label": "React",
           "description": "Library for building user interfaces",
           "depend_features": ["JavaScript"],
-          "depend_categories": ["Frontend Language"],
+          "depend_categories": ["Frontend-Language"],
           "default": false,
           "enabled": false
         },
@@ -41,7 +41,7 @@
           "label": "Angular",
           "description": "Platform for building web applications",
           "depend_features": ["TypeScript"],
-          "depend_categories": ["Frontend Language"],
+          "depend_categories": ["Frontend-Language"],
           "default": false,
           "enabled": true
         },
@@ -49,7 +49,7 @@
           "label": "VueJs",
           "description": "Progressive JavaScript framework",
           "depend_features": [],
-          "depend_categories": ["Frontend Language"],
+          "depend_categories": ["Frontend-Language"],
           "default": false,
           "enabled": true
         },
@@ -57,7 +57,7 @@
           "label": "NextJs",
           "description": "React framework for production",
           "depend_features": ["TypeScript"],
-          "depend_categories": ["Frontend Language"],
+          "depend_categories": ["Frontend-Language"],
           "default": false,
           "enabled": true
         }
