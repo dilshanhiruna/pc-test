@@ -2,29 +2,91 @@
   "type": "dynamic",
   "optionsFile": [
     {
-      "label": "Category 1",
-      "description": "Description of category 1",
+      "label": "Frontend Language",
+      "description": "Language for frontend development",
       "required": true,
       "features": [
         {
-          "label": "Option 1",
-          "description": "Description of option 1",
-          "depend_features": ["option2", "option3"],
-          "depend_categories": ["category2"],
+          "label": "JavaScript",
+          "description": "High-level, interpreted programming language",
+          "depend_features": [""],
+          "depend_categories": [""],
           "default": false,
           "enabled": false
         },
         {
-          "label": "Option 2",
-          "description": "Description of option 2",
-          "depend_features": ["option3"],
+          "label": "TypeScript",
+          "description": "Strict syntactical superset of JavaScript",
+          "depend_features": [""],
+          "depend_categories": [],
+          "default": false,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": "Frontend",
+      "description": "Category for frontend technologies",
+      "required": true,
+      "features": [
+        {
+          "label": "React",
+          "description": "Library for building user interfaces",
+          "depend_features": ["JavaScript"],
+          "depend_categories": ["Frontend Language"],
+          "default": false,
+          "enabled": false
+        },
+        {
+          "label": "Angular",
+          "description": "Platform for building web applications",
+          "depend_features": ["TypeScript"],
+          "depend_categories": ["Frontend Language"],
+          "default": false,
+          "enabled": true
+        },
+        {
+          "label": "VueJs",
+          "description": "Progressive JavaScript framework",
+          "depend_features": [],
+          "depend_categories": ["Frontend Language"],
+          "default": false,
+          "enabled": true
+        },
+        {
+          "label": "NextJs",
+          "description": "React framework for production",
+          "depend_features": ["TypeScript"],
+          "depend_categories": ["Frontend Language"],
+          "default": false,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": "Backend",
+      "description": "Popular backend technologies",
+      "required": true,
+      "features": [
+        {
+          "label": "Node.js",
+          "description": "JavaScript runtime for building server-side applications",
+          "depend_features": [],
           "depend_categories": [],
           "default": false,
           "enabled": true
         },
         {
-          "label": "Option 3",
-          "description": "Description of option 3",
+          "label": "Express",
+          "description": "Fast, unopinionated, minimalist web framework for Node.js",
+          "depend_features": ["Node.js"],
+          "depend_categories": [],
+          "default": false,
+          "enabled": true
+        },
+        {
+          "label": "Django",
+          "description": "Python web framework",
           "depend_features": [],
           "depend_categories": [],
           "default": false,
@@ -33,60 +95,37 @@
       ]
     },
     {
-      "label": "Category 2",
-      "description": "Description of category 2",
-      "required": true,
+      "label": "Database",
+      "description": "Popular database technologies",
+      "required": false,
       "features": [
         {
-          "label": "Option 4",
-          "description": "Description of option 4",
+          "label": "MongoDB",
+          "description": "NoSQL database",
           "depend_features": [],
           "depend_categories": [],
           "default": false,
           "enabled": true
         },
         {
-          "label": "Option 5",
-          "description": "Description of option 5",
+          "label": "Mongoose",
+          "description": "MongoDB object modeling for Node.js",
+          "depend_features": ["MongoDB"],
+          "depend_categories": [],
+          "default": false,
+          "enabled": true
+        },
+        {
+          "label": "MySQL",
+          "description": "Relational database management system",
           "depend_features": [],
           "depend_categories": [],
           "default": false,
           "enabled": true
         },
         {
-          "label": "Option 6",
-          "description": "Description of option 6",
-          "depend_features": [],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        }
-      ]
-    },
-    {
-      "label": "Category 3",
-      "description": "Description of category 3",
-      "required": true,
-      "features": [
-        {
-          "label": "Option 7",
-          "description": "Description of option 7",
-          "depend_features": ["option8", "option9"],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "Option 8",
-          "description": "Description of option 8",
-          "depend_features": [],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "Option 9",
-          "description": "Description of option 9",
+          "label": "PostgreSQL",
+          "description": "Object-relational database system",
           "depend_features": [],
           "depend_categories": [],
           "default": false,
