@@ -102,7 +102,7 @@
         {
           "label": "MongoDB",
           "description": "NoSQL database",
-          "depend_features": [],
+          "depend_features": ["Express"],
           "depend_categories": [],
           "default": false,
           "enabled": true
@@ -110,7 +110,7 @@
         {
           "label": "Mongoose",
           "description": "MongoDB object modeling for Node.js",
-          "depend_features": ["Express"],
+          "depend_features": ["Express", "JavaScript"],
           "depend_categories": [],
           "default": false,
           "enabled": true
