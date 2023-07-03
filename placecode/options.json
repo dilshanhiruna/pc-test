@@ -2,7 +2,7 @@
   "type": "dynamic",
   "optionsFile": [
     {
-      "label": "Frontend Language",
+      "label": "Frontend-Language",
       "description": "Language for frontend development",
       "required": true,
       "features": [
