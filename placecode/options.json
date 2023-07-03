@@ -79,7 +79,7 @@
         {
           "label": "Express",
           "description": "Fast, unopinionated, minimalist web framework for Node.js",
-          "depend_features": ["",""],
+          "depend_features": ["", ""],
           "depend_categories": [],
           "default": false,
           "enabled": true
@@ -110,7 +110,7 @@
         {
           "label": "Mongoose",
           "description": "MongoDB object modeling for Node.js",
-          "depend_features": ["MongoDB"],
+          "depend_features": ["Express"],
           "depend_categories": [],
           "default": false,
           "enabled": true
