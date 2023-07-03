@@ -79,7 +79,7 @@
         {
           "label": "Express",
           "description": "Fast, unopinionated, minimalist web framework for Node.js",
-          "depend_features": ["Node.js"],
+          "depend_features": ["",""],
           "depend_categories": [],
           "default": false,
           "enabled": true
