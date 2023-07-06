@@ -33,7 +33,7 @@
         "depend_features": ["JavaScript"],
         "depend_categories": ["Frontend-Language"],
         "default": false,
-        "enabled": "false"
+        "enabled": false
       },
       {
         "label": "Angular",
