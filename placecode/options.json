@@ -1,137 +1,134 @@
-{
-  "type": "dynamic",
-  "optionsFile": [
-    {
-      "label": "Frontend-Language",
-      "description": "Language for frontend development",
-      "required": true,
-      "features": [
-        {
-          "label": "JavaScript",
-          "description": "High-level, interpreted programming language",
-          "depend_features": [""],
-          "depend_categories": [""],
-          "default": false,
-          "enabled": false
-        },
-        {
-          "label": "TypeScript",
-          "description": "Strict syntactical superset of JavaScript",
-          "depend_features": [""],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        }
-      ]
-    },
-    {
-      "label": "Frontend",
-      "description": "Category for frontend technologies",
-      "required": true,
-      "features": [
-        {
-          "label": "React",
-          "description": "Library for building user interfaces",
-          "depend_features": ["JavaScript"],
-          "depend_categories": ["Frontend-Language"],
-          "default": false,
-          "enabled": false
-        },
-        {
-          "label": "Angular",
-          "description": "Platform for building web applications",
-          "depend_features": ["TypeScript"],
-          "depend_categories": ["Frontend-Language"],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "VueJs",
-          "description": "Progressive JavaScript framework",
-          "depend_features": [],
-          "depend_categories": ["Frontend-Language"],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "NextJs",
-          "description": "React framework for production",
-          "depend_features": ["TypeScript", "Express"],
-          "depend_categories": ["Frontend-Language"],
-          "default": false,
-          "enabled": true
-        }
-      ]
-    },
-    {
-      "label": "Backend",
-      "description": "Popular backend technologies",
-      "required": true,
-      "features": [
-        {
-          "label": "Node.js",
-          "description": "JavaScript runtime for building server-side applications",
-          "depend_features": [],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "Express",
-          "description": "Fast, unopinionated, minimalist web framework for Node.js",
-          "depend_features": ["", ""],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "Django",
-          "description": "Python web framework",
-          "depend_features": [],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        }
-      ]
-    },
-    {
-      "label": "Database",
-      "description": "Popular database technologies",
-      "required": false,
-      "features": [
-        {
-          "label": "MongoDB",
-          "description": "",
-          "depend_features": ["Express"],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "Mongoose",
-          "description": "MongoDB object modeling for Node.js",
-          "depend_features": ["Express"],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "MySQL",
-          "description": "Relational database management system",
-          "depend_features": [],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        },
-        {
-          "label": "PostgreSQL",
-          "description": "Object-relational database system",
-          "depend_features": [],
-          "depend_categories": [],
-          "default": false,
-          "enabled": true
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "label": "Frontend-Language",
+    "description": "Language for frontend development",
+    "required": true,
+    "features": [
+      {
+        "label": "JavaScript",
+        "description": "High-level, interpreted programming language",
+        "depend_features": [""],
+        "depend_categories": [""],
+        "default": false,
+        "enabled": false
+      },
+      {
+        "label": "TypeScript",
+        "description": "Strict syntactical superset of JavaScript",
+        "depend_features": [""],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "label": "Frontend",
+    "description": "Category for frontend technologies",
+    "required": true,
+    "features": [
+      {
+        "label": "React",
+        "description": "Library for building user interfaces",
+        "depend_features": ["JavaScript"],
+        "depend_categories": ["Frontend-Language"],
+        "default": false,
+        "enabled": false
+      },
+      {
+        "label": "Angular",
+        "description": "Platform for building web applications",
+        "depend_features": ["TypeScript"],
+        "depend_categories": ["Frontend-Language"],
+        "default": false,
+        "enabled": true
+      },
+      {
+        "label": "VueJs",
+        "description": "Progressive JavaScript framework",
+        "depend_features": [],
+        "depend_categories": ["Frontend-Language"],
+        "default": false,
+        "enabled": true
+      },
+      {
+        "label": "NextJs",
+        "description": "React framework for production",
+        "depend_features": ["TypeScript", "Express"],
+        "depend_categories": ["Frontend-Language"],
+        "default": false,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "label": "Backend",
+    "description": "Popular backend technologies",
+    "required": true,
+    "features": [
+      {
+        "label": "Node.js",
+        "description": "JavaScript runtime for building server-side applications",
+        "depend_features": [],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      },
+      {
+        "label": "Express",
+        "description": "Fast, unopinionated, minimalist web framework for Node.js",
+        "depend_features": ["", ""],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      },
+      {
+        "label": "Django",
+        "description": "Python web framework",
+        "depend_features": [],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "label": "Database",
+    "description": "Popular database technologies",
+    "required": false,
+    "features": [
+      {
+        "label": "MongoDB",
+        "description": "",
+        "depend_features": ["Express"],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      },
+      {
+        "label": "Mongoose",
+        "description": "MongoDB object modeling for Node.js",
+        "depend_features": ["Express"],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      },
+      {
+        "label": "MySQL",
+        "description": "Relational database management system",
+        "depend_features": [],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      },
+      {
+        "label": "PostgreSQL",
+        "description": "Object-relational database system",
+        "depend_features": [],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      }
+    ]
+  }
+]
