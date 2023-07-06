@@ -69,6 +69,7 @@
       {
         "label": "Node.js",
         "description": "JavaScript runtime for building server-side applications",
+        "depend_features": [],
         "depend_categories": [],
         "default": false,
         "enabled": true
