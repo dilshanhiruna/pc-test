@@ -1,6 +1,6 @@
 [
   {
-    "label": "Frontend Language",
+    "label": "Frontend-Language",
     "description": "Language for frontend development",
     "required": true,
     "features": [
@@ -33,7 +33,7 @@
         "depend_features": ["JavaScript"],
         "depend_categories": ["Frontend-Language"],
         "default": false,
-        "enabled": false
+        "enabled": "false"
       },
       {
         "label": "Angular",
@@ -69,7 +69,6 @@
       {
         "label": "Node.js",
         "description": "JavaScript runtime for building server-side applications",
-        "depend_features": [],
         "depend_categories": [],
         "default": false,
         "enabled": true
