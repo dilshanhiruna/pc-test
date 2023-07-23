@@ -1,0 +1,40 @@
+[
+  {
+    "label": "Frontend-Language",
+    "description": "Language for frontend development",
+    "required": true,
+    "features": [
+      {
+        "label": "JavaScript",
+        "description": "High-level, interpreted programming language",
+        "depend_features": [""],
+        "depend_categories": [""],
+        "default": false,
+        "enabled": false
+      },
+      {
+        "label": "TypeScript",
+        "description": "Strict syntactical superset of JavaScript",
+        "depend_features": [""],
+        "depend_categories": [],
+        "default": false,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "label": "Frontend",
+    "description": "Category for frontend technologies",
+    "required": true,
+    "features": [
+      {
+        "label": "React",
+        "description": "Library for building user interfaces",
+        "depend_features": ["JavaScript", "TypeScript"],
+        "depend_categories": ["Frontend-Language"],
+        "default": false,
+        "enabled": false
+      }
+    ]
+  }
+]

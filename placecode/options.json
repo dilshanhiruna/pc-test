@@ -13,7 +13,7 @@
         "enabled": false
       },
       {
-        "label": "TypeScript",
+        "label": "JavaScript",
         "description": "Strict syntactical superset of JavaScript",
         "depend_features": [""],
         "depend_categories": [],
