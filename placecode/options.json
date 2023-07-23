@@ -30,7 +30,7 @@
       {
         "label": "React",
         "description": "Library for building user interfaces",
-        "depend_features": ["JavaScript", "TypeScript"],
+        "depend_features": ["JavaScrispt"],
         "depend_categories": ["Frontend-Language"],
         "default": false,
         "enabled": false
