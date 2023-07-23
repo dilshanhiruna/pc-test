@@ -13,7 +13,7 @@
         "enabled": false
       },
       {
-        "label": "JavaScript",
+        "label": "TypeScript",
         "description": "Strict syntactical superset of JavaScript",
         "depend_features": [""],
         "depend_categories": [],
@@ -30,7 +30,7 @@
       {
         "label": "React",
         "description": "Library for building user interfaces",
-        "depend_features": ["JavaScript"],
+        "depend_features": ["JavaScript", "TypeScript"],
         "depend_categories": ["Frontend-Language"],
         "default": false,
         "enabled": false
